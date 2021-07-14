@@ -22,6 +22,9 @@
     "url": "https://github.com/paserv/test/issues"
   },
   "homepage": "https://github.com/paserv/test#readme",
+  "dependencies": {
+    "common": "git://github.com/paserv/common.git#branch"
+  },
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
