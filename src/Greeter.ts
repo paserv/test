@@ -1,3 +1,4 @@
+import { Common } from 'common';
 class Greeter {
   private constructor() {}
 
@@ -6,9 +7,8 @@ class Greeter {
   }
 
   static testCommon(): string {
-    return 'Main version';
+    return Common.getVersion();
   }
-
 }
 
 export { Greeter };
